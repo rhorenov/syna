@@ -103,7 +103,8 @@
                 {{- if and (ne $self.Params.images false) .Params.asset -}}
                   {{- $file_path := strings.TrimSuffix ".md" (replace .File.Path "/index.md" "") -}}
                   {{- $page_scratch := $.page_scratch -}}
-                  {{- $root := (dict "page" (dict "file_path" $file_path) "page_scratch" $page_scratch "page" $page) }}
+                  {{- $root := (dict "file_path" $file_path "page_scratch" $page_scratch "page" $page) }}
+
                   <div class="col-12 mt-1
                     {{- printf " p%s-0" (cond (eq $self.Params.tiled true) "x" "l") -}}
                   ">

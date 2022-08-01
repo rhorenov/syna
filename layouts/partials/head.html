@@ -27,7 +27,7 @@
     {{- range $content_fragment -}}
       {{- if and .Params.asset -}}
         {{- $file_path := strings.TrimSuffix ".md" (replace .File.Path "/index.md" "") -}}
-        {{- $root := (dict "page" (dict "file_path" $file_path) "page_scratch" $.Scratch "page" .) }}
+        {{- $root := (dict "file_path" $file_path "page_scratch" $.Scratch "page" .) }}
         <meta property="og:image" content="{{ partial "helpers/image.html" (dict "root" $root "asset" .Params.asset "absolute" true) }}">
         <meta name="twitter:image" content="{{ partial "helpers/image.html" (dict "root" $root "asset" .Params.asset "absolute" true) }}">
       {{- else }}
