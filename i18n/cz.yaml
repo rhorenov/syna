@@ -1,0 +1,91 @@
+# General
+- id: attribution
+  translation: "Vytvořeno na základě"
+- id: cz
+  translation: "Česky"
+- id: github.star
+  translation: "Star"
+- id: github.stars
+  translation: "Stars"
+
+# Content
+- id: content.readmore
+  translation: "Více..."
+
+# Contact Form
+- id: contact.defaultError
+  translation: 'Please fill the field'
+- id: contact.defaultNameError
+  translation: "Please enter your name"
+- id: contact.defaultEmailError
+  translation: "Please enter your email address"
+- id: contact.defaultPhoneError
+  translation: "Please enter your phone number"
+- id: contact.defaultMessageError
+  translation: "Please enter a message"
+- id: contact.defaultGenericSuccess
+  translation: "Thank you for contacting us"
+- id: contact.defaultGenericError
+  translation: "Message could not be send. Please contact us at"
+- id: contact.defaultJsError
+  translation: "Message can not be send with javascript disabled. Please contact us at"
+- id: contact.defaultCaptchaError
+  translation: "Message could not be send due to captcha not loadable. Please contact us at"
+- id: contact.defaultButton
+  translation: "Poslat zprávu"
+
+# Footer
+- id: footerLegal.copyright
+  translation: "© Copyright"
+- id: footerLegal.by
+  translation: " "
+
+# 404
+- id: 404.title
+  translation: "Stránka nenalezena"
+- id: 404.subtitle
+  translation: "Požadovaná stránka nenalezena"
+- id: 404.direction
+  translation: "Vždy můžete přejít na hlavní stránku"
+- id: 404.button
+  translation: "Hlavní stránka"
+
+# Member
+- id: member.livesIn
+  translation: "Žije v"
+- id: member.reportsTo
+  translation: "Odpovídá komu"
+
+# Navbar
+- id: navbar.search
+  translation: "Hledat..."
+- id: navbar.github
+  translation: "Github"
+- id: navbar.back_to_top
+  translation: "Nahoru"
+
+# Search
+- id: search.search
+  translation: "Hledat"
+- id: search.no_results
+  translation: "Nenalezeno"
+
+# Stripe
+- id: stripe.pay
+  translation: "Pay"
+- id: stripe.return
+  translation: "Return"
+- id: stripe.email
+  translation: "Your email address"
+- id: stripe.pricePlaceholder
+  translation: "Enter your custom price"
+- id: stripe.customPriceError
+  translation: "Price should be in the following formats: 20, 20.00, 20,00"
+- id: stripe.defaultGenericSuccess
+  translation: "Payment was successful. Thank you."
+- id: stripe.defaultGenericError
+  translation: "Something happened. Please try again in a few minutes."
+- id: stripe.change_price
+  translation: "Change Price"
+- id: stripe.change_currency
+  translation: "Change Currency"
