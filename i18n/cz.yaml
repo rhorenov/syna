@@ -24,13 +24,13 @@
 - id: contact.defaultMessageError
   translation: "Please enter a message"
 - id: contact.defaultGenericSuccess
-  translation: "Thank you for contacting us"
+  translation: "Díky za zprávu."
 - id: contact.defaultGenericError
-  translation: "Message could not be send. Please contact us at"
+  translation: "Nepodařilo se odeslat zprávu. Napište nám zprávu na"
 - id: contact.defaultJsError
-  translation: "Message can not be send with javascript disabled. Please contact us at"
+  translation: "Nepodařilo se odeslat zprávu, protože je zakázán javascript. Napište nám zprávu na"
 - id: contact.defaultCaptchaError
-  translation: "Message could not be send due to captcha not loadable. Please contact us at"
+  translation: "Nepodařilo se odeslat zprávu z důvodů problémů s Captcha. Napište nám zprávu na"
 - id: contact.defaultButton
   translation: "Poslat zprávu"
 
